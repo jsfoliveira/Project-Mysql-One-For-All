@@ -1,3 +1,46 @@
+# 	:woman_technologist: Project Mysql One For All
+
+Esse projeto contém uma série de informações sobre o que eu aprendi aqui na Trybe ao longo  do curso de desenvolvimento web da Trybe. <br>
+Esse projeto contém uma série de desafios com diferentes níveis de complexidade que devem ser resolvidos cada um em seu arquivo próprio, usando query de MySQL.
+
+## :rocket:Começando
+Esse projeto foi proposto pelo curso de desenvolvimento web da Trybe.
+### Desenvolvimento
+Esse proejto foi desenvolvido no bloco de back-end, usei query de MySQL.
+### Commits
+Os commits foram feitos de acordo grupo de arquivos de testes: filteringChallenges.spec, initialChallenges.spec e tableManipulationChallenges.spec.
+### Branch
+Todo o projeto foi feita na branch 'juliana-oliveira-project-all-for-one', isso por conta da exigência do curso.
+### Instalação
+Antes de realizar o projeto, precisei instalar as dependências usando npm install, dentro do container. Usei o comando docker exec -it all_for_one bash, depois dei npm install.
+### Testes
+Os testes usando foram feitos através dos **comandos**, feitos dentro do container docker: <br>
+* Primeiro fiz docker exec -it all_for_one bash
+* Depois fiz npm test
+### Autores
+Esse foi um projeto individual,que desenvolvido somente por Juliana Oliveira.
+### Ferramentas usadas
+Foi usado Visual Studio Code, além do Trello que auxiliou na organização das tarefas.
+### Framework usado
+Nenhum.
+### Banco de Dados
+O banco de dados usado foi o northwind, que pode ser copiado através desse arquivo:<br>
+https://github.com/jsfoliveira/Project-All-For-One/blob/juliana-oliveira-project-all-for-one/northwind.sql
+### Informações Importantes
+Na raiz do projeto, foram criados os arquivos desafio1.sql até desafio27.sql. Nele contém todas as querys que serão usadas nos testes. Para fazer todos os arquivos de uma vez só, usei o seguinte comando:
+* touch desafio{1..27}.sql
+<br>
+**Não é necessário colocar no início dos arquivos** `USE northwind` ou `SET SQL_SAFE_UPDATES = 0;` <br>
+Após a execução dos teste locais, o banco de dados `northwind` é deletado.<br>
+Antes de começar, seu docker-compose precisa estar na versão 1.29 ou superior. 
+
+## :footprints:Requisitos
+### Metodologia usada
+No trabalho do desenvolvimento de software a gente sempre tem prazos, muitas vezes os prazos são apertados.<br>
+Por outro lado, eu não quero criar algo que não entendo perfeitamente, como também fazer códigos rápidos pode levar a erros que podem demorar muito pra corrigir.<br>
+Por isso, usei e sempre uso o método Baby Steps, que é uma estratégia de abordar o desafio passo à passo, defensivamente.<br>
+Baby steps é um termo em inglês que quer dizer passos de bebê. Refere-se a fazer as coisas, quaisquer que sejam, devagar, com calma, passo a passo.
+#### :footprints:Requisito 1-  Exiba apenas os nomes dos produtos na tabela `products`.
 # Boas vindas ao repositório do projeto One For All!
 
 Para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo e, se tiver qualquer dúvida, nos envie por Slack! #vqv 🚀
